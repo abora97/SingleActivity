@@ -1,4 +1,4 @@
-package com.example.singleactivity.ui.slideshow;
+package com.example.singleactivity.fragment.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

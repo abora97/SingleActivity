@@ -1,4 +1,4 @@
-package com.example.singleactivity.ui.gallery;
+package com.example.singleactivity.fragment.ui.gallery;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

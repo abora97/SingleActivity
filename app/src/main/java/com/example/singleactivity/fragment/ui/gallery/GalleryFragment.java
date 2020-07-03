@@ -1,4 +1,4 @@
-package com.example.singleactivity.ui.gallery;
+package com.example.singleactivity.fragment.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

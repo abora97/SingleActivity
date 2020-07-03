@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.singleactivity.R;
 
@@ -57,10 +59,20 @@ public class SecondFragment extends Fragment {
         }
     }
 
+    TextView tvSecond;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view=inflater.inflate(R.layout.fragment_second, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_second, container, false);
+        tvSecond = view.findViewById(R.id.tvSecond);
+        tvSecond.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "SSSSSSSSSSSSSSSSSSSSSSSSSSSS", Toast.LENGTH_SHORT).show();
+            }
+        });
+        return view;
     }
 }

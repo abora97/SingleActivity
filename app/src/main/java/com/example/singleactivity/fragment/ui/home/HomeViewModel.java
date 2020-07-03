@@ -1,4 +1,4 @@
-package com.example.singleactivity.ui.home;
+package com.example.singleactivity.fragment.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
